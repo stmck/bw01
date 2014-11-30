@@ -1,15 +1,20 @@
 source 'https://rubygems.org'
 
+# ruby version
+ruby '2.1.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
-gem 'twitter-bootswatch-rails', '~> 3.1.1.0'
-gem 'twitter-bootswatch-rails-fontawesome', '>= 4.0.3.0'
-
-gem 'twitter-bootswatch-rails-helpers', '>= 3.1.0.0'
+gem 'twitter-bootswatch-rails', '~> 3.1'
+gem 'twitter-bootswatch-rails-helpers', '~> 3.1'
+gem 'twitter-bootswatch-rails-fontawesome'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+
+# Use less
+gem 'less-rails'
 
 # Use SCSS for stylesheets
 #gem 'sass-rails', '~> 4.0.0'
